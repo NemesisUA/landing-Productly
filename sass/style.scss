@@ -1,4 +1,9 @@
 // more common styles at the top: constants, then base, then layouts...
 @import "abstract/constants";
+
 @import "base/base";
-@import "layouts/wrapper"
+@import "base/buttons";
+
+//Layouts
+@import "layouts/wrapper";
+@import "layouts/header";
