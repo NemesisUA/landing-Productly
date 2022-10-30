@@ -348,3 +348,12 @@
     display: none;
   }
   
+  /* added by me */
+  section, main, footer, header, article {
+    display: block;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  

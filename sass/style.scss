@@ -1,4 +1,7 @@
 // more common styles are at the top: constants, then base, then layouts...
+// normalize should be at the top
+@import "base/normalize";
+
 @import "abstract/constants";
 
 //Base
