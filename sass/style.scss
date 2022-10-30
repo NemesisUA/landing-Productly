@@ -1,9 +1,13 @@
-// more common styles at the top: constants, then base, then layouts...
+// more common styles are at the top: constants, then base, then layouts...
 @import "abstract/constants";
 
+//Base
 @import "base/base";
 @import "base/buttons";
 
 //Layouts
 @import "layouts/wrapper";
 @import "layouts/header";
+
+// Components
+@import "components/promo"

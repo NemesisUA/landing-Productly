@@ -5,6 +5,7 @@
     font-style: 1.6rem;
     line-height: 2.2rem;
     border-radius: 4px;
+    cursor: pointer;
     transition: all .3s;
 }
 
@@ -26,6 +27,6 @@
 }
 
 .button_bordered:hover {
-    background: $color-additional;
-    border-color: $color-additional;
+    background: $color-hovered;
+    border-color: $color-hovered;
 }
