@@ -316,7 +316,15 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-h1 {
+.navigation__link {
+  transition: all 0.3s ease-out;
+}
+
+.button, body {
+  font-family: "Open Sans", "Verdana", sans-serif;
+}
+
+.promo__text, .link-button, h1 {
   font-family: "Poppins", "Verdana", sans-serif;
 }
 
@@ -326,7 +334,9 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Open Sans", "Verdana", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
 }
 
 h1 {
@@ -366,7 +376,6 @@ h5 {
 }
 
 .button {
-  font-family: "Open Sans", Verdana, sans-serif;
   padding: 11px 25px 13px;
   font-weight: 600;
   font-style: 1.6rem;
@@ -394,6 +403,27 @@ h5 {
   border-color: #FF7549;
 }
 
+.link-button {
+  color: #FF9900;
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-button__text {
+  margin-left: 9px;
+}
+
+.ico {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ico_play {
+  background-image: url("../img/icons/play.svg");
+  width: 18px;
+  height: 19px;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: 0 auto;
@@ -414,18 +444,6 @@ h5 {
   margin-right: 14px;
 }
 
-.navigation {
-  display: flex;
-  font-style: 15px;
-  line-height: 2.8rem;
-}
-
-.navigation__link {
-  list-style: none;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
 .promo {
   padding: 30px 0;
 }
@@ -440,12 +458,36 @@ h5 {
   padding-right: 65px;
 }
 
+.promo__text {
+  max-width: 487px;
+  margin: 0 0 45px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8rem;
+}
+
 .promo__title {
-  margin: 30px 0;
+  margin: 0 0 30px;
 }
 
 .promo__buttons > * {
   margin-right: 44px;
+}
+
+.navigation {
+  display: flex;
+  font-style: 15px;
+  line-height: 2.8rem;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #FF9900;
 }
 
 /*# sourceMappingURL=style.css.map */

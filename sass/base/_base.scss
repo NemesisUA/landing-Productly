@@ -2,9 +2,9 @@ html {
     font-size: 10px;
 }
 
-body {
-    font-size: 1.6rem;
-    font-family: "Open Sans", "Verdana", sans-serif;
+body {  
+    @extend %font-prim;  
+    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);     
 }
 
 h1{

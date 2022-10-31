@@ -9,10 +9,12 @@
 //Base
 @import "base/base";
 @import "base/buttons";
+@import "base/icons";
 
 //Layouts
 @import "layouts/wrapper";
 @import "layouts/header";
 
 // Components
-@import "components/promo"
+@import "components/promo";
+@import "components/navigation";
