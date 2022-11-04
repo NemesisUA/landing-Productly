@@ -8,3 +8,43 @@
     width: 18px;
     height: 19px;
 }
+
+.icon-square {
+    // щоб було зручно вирівнювати внутрішню іконку
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    &_red {
+        background-color: $color-red;
+    }
+    &_blue {
+        background-color: $color-blue;
+    }
+    &_yellow {
+        background-color: $color-yellow;
+    }
+    &_violet {
+        background-color: $color-violet;
+    }
+}
+
+.ico_flag, .ico_hand, .ico_handshake, .ico_clock {        
+    background: url("../img/icons/flag.svg") center no-repeat;    
+    width: 24px;
+    height: 24px;
+}
+
+.ico_hand {
+    background-image: url("../img/icons/hand.svg");    
+}
+
+.ico_handshake {
+    background-image: url("../img/icons/handshake.svg");    
+}
+
+.ico_clock {
+    background-image: url("../img/icons/clock.svg");    
+}
