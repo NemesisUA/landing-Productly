@@ -375,6 +375,11 @@ h5 {
   line-height: 2.6rem;
 }
 
+.block-shadowed {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
 .button {
   padding: 11px 25px 13px;
   font-weight: 600;
@@ -461,6 +466,32 @@ h5 {
 
 .ico_clock {
   background-image: url("../img/icons/clock.svg");
+}
+
+.strategies__tags {
+  display: flex;
+}
+.strategies__tags > * {
+  margin-right: 7px;
+}
+
+.tag {
+  border-radius: 90px;
+  padding: 0 14px;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8rem;
+}
+.tag_selected {
+  background-color: #FF9900;
+  color: #ffffff;
+}
+.tag_bordered {
+  border: 1px solid #D7D7D7;
+}
+.tag_colored {
+  background-color: #F5F5F5;
 }
 
 .wrapper {
@@ -579,6 +610,34 @@ h5 {
 .tools__button {
   margin-top: 60px;
   text-align: center;
+}
+
+.strategies {
+  padding: 30px 0;
+}
+
+.strategies__title {
+  margin: 0 0 14px;
+}
+
+.strategies__description {
+  margin: 0 0 24px;
+}
+
+.strategies__tags {
+  margin: 0 0 31px;
+}
+
+.strategies-wrapper > * {
+  margin-bottom: 30px;
+}
+
+.strategy-content {
+  padding: 24px 33px 26px;
+}
+
+.strategy-name {
+  margin: 0 0 29px;
 }
 
 /*# sourceMappingURL=style.css.map */
