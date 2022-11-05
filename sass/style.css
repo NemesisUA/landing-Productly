@@ -316,7 +316,7 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-.navigation__link {
+.navigation__link, .logo-obj-svg:hover {
   transition: all 0.3s ease-out;
 }
 
@@ -378,6 +378,13 @@ h5 {
 .block-shadowed {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+}
+
+.logo-obj-svg:hover {
+  cursor: pointer;
+}
+.logo-obj-svg:hover .logo-obj-path {
+  fill: #FF9900;
 }
 
 .button {

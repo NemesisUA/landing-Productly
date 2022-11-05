@@ -11,7 +11,13 @@
 <body>
     <header class="header">
         <div class="wrapper header__wrapper">
-            <a href="#" class="logo"><img src="img/svg/logo.svg" alt="logo"></a>
+            <!-- <a href="#" class="logo"><img src="img/svg/logo.svg" alt="logo"></a> -->
+            <!-- SVG as object -->
+            <a href="#" class="logo">
+                <object data="./img/svg/logoObj.svg" type="image/svg+xml" class="logo-object">
+                    Your browser does not support SVG
+                </object>
+            </a>
             <nav class="header__navigation">
                 <ul class="navigation">
                     <li class="navigation__link">Home</li>
