@@ -316,7 +316,7 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-.navigation__link, .logo-obj-svg:hover {
+.footer-navigation__links a, .navigation__link, .logo-obj-svg:hover {
   transition: all 0.3s ease-out;
 }
 
@@ -324,7 +324,7 @@ section, main, footer, header, article {
   font-family: "Open Sans", "Verdana", sans-serif;
 }
 
-.promo__text, .link-button, h1 {
+.footer-navigation__links, .promo__text, .link-button, h1 {
   font-family: "Poppins", "Verdana", sans-serif;
 }
 
@@ -674,6 +674,38 @@ h5 {
 
 .contact-us button {
   min-width: 117px;
+}
+
+footer {
+  padding: 60px 0 70px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  padding-left: 152px;
+}
+
+.footer-navigation__title {
+  margin: 0 15px;
+}
+
+.footer-navigation__links {
+  list-style: none;
+}
+.footer-navigation__links a {
+  color: #544837;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3.5rem;
+  text-decoration: none;
+}
+.footer-navigation__links a:hover {
+  color: #FF9900;
 }
 
 /*# sourceMappingURL=style.css.map */
