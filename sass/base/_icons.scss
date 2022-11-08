@@ -48,3 +48,23 @@
 .ico_clock {
     background-image: url("../img/icons/clock.svg");    
 }
+
+.ico__phone, .ico__letter {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color-light;    
+    margin-right: 20px;
+}
+
+.ico__phone {
+    background-image: url(../img/icons/phone.svg);
+}
+
+.ico__letter {
+    background-image: url(../img/icons/email.svg);
+}
